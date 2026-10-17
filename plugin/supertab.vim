@@ -52,10 +52,6 @@
 "     $ vim -u NONE -U NONE -c "set nocp | runtime plugin/supertab.vim"
 " }}}
 
-if !has('nvim') && v:version < 900
-  finish
-endif
-
 if exists('complType') " Integration with other completion functions.
   finish
 endif
